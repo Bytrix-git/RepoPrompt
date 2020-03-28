@@ -1,0 +1,10 @@
+#Cambios a realizar
+
+git_prompt_make_custom_theme
+
+   GIT_PROMPT_END_USER=" ${White}${ResetColor}$ "
+   GIT_PROMPT_END_ROOT=" ${White}${ResetColor}# "
+
+
+
+
