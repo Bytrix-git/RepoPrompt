@@ -1,0 +1,20 @@
+
+Para instalar bash-git-prompt, clona el repositorio bash-git-prompt:
+
+git clone https://github.com/magicmonty/bash-git-prompt.git ~/.bash-git-prompt --depth=1
+
+Y añade al archivo ~/.bashrc las siguientes líneas:
+
+# bash-git-prompt
+GIT_PROMPT_ONLY_IN_REPO=1
+source ~/.bash-git-prompt/gitprompt.sh
+
+Hay muchas variables de configuración que se pueden añadir además de GIT_PROMPT_ONLY_IN_REPO. Lee atentamente el README del repositorio bash-git-prompt para conocer todas las variables de configuración existentes.
+
+
+Recargar la configuración de Bash (.bashrc)
+
+Cuando modificas el archivo de configuración de Bash (~/.bashrc), debes cerrar e iniciar una nueva sesión para que se hagan efectivos los cambios, o puedes utilizar la instrucción source ~/.bashrc o . ~/.bashrc (son equivalentes).
+
+
+
